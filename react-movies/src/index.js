@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Simple from './Simple';
+import Expressions from './Expressions';
+import Event  from './Event.tsx';
+import Conditionals from './Conditionals.tsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Simple /> */}
+    {/* <Expressions /> */}
+    {/* <Event /> */}
+    <Conditionals />
   </React.StrictMode>
 );
 
